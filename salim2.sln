@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "salim2", "salim2\salim2.csproj", "{6CC76905-FD12-4ACE-885B-E8C909A09B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "salim2Array", "salim2Array\salim2Array.csproj", "{CF76172C-B27A-4394-A148-9D46EC50C27E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "salim3", "salim3\salim3.csproj", "{0A943815-0C37-412F-B671-A6C53B6F1111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CC76905-FD12-4ACE-885B-E8C909A09B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC76905-FD12-4ACE-885B-E8C909A09B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC76905-FD12-4ACE-885B-E8C909A09B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC76905-FD12-4ACE-885B-E8C909A09B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF76172C-B27A-4394-A148-9D46EC50C27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF76172C-B27A-4394-A148-9D46EC50C27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF76172C-B27A-4394-A148-9D46EC50C27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF76172C-B27A-4394-A148-9D46EC50C27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A943815-0C37-412F-B671-A6C53B6F1111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A943815-0C37-412F-B671-A6C53B6F1111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A943815-0C37-412F-B671-A6C53B6F1111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A943815-0C37-412F-B671-A6C53B6F1111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A9400A4-463E-445B-AA78-E05370DB9C36}
+	EndGlobalSection
+EndGlobal
