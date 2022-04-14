@@ -28,14 +28,10 @@ for (int i = 0; i < arr.GetLength(0); i++)
         else
             Console.Write("\t");
 
-        //if (i!=0 && j!=0 || i!=rows && j!=rows || i+j==rows-1)
-        //{
-        //    Console.Write("");
-        //}
+        if (i == 0 && j == 0)
+        {
+            Console.Write("");
+        }
     }
     Console.WriteLine();
-
-
-
-
 }
