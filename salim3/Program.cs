@@ -1,4 +1,5 @@
-﻿//Console.Write("Enter size of array as rows & columns : ");
+﻿
+//Console.Write("Enter size of array as rows & columns : ");
 //int rows = int.Parse(Console.ReadLine());
 //int cols = int.Parse(Console.ReadLine());
 
@@ -97,8 +98,6 @@
 
 //Console.WriteLine("\t\t\tDynamic\t\t\t");
 
-
-
 //Console.WriteLine("====================================================================================");
 
 //* * * *
@@ -134,33 +133,28 @@
 //*
 //*
 
+//Console.Write("Enter size of matrix as rows & columns : ");
+//int rows = int.Parse(Console.ReadLine());
+//int cols = int.Parse(Console.ReadLine());
 
-Console.Write("Enter size of matrix as rows & columns : ");
-int rows = int.Parse(Console.ReadLine());
-int cols = int.Parse(Console.ReadLine());
+//int res = rows/2;
+//for (int i = 0; i <= rows; i++)
+//{
+//    for (int j = 0; j <= cols; j++)
+//    {
+//        if (i == 0 || i==res || j == 0 || (j==cols && i<res))
+//            Console.Write("*\t");
+//        else
+//            Console.Write("\t");
 
-int res = rows/2;
-for (int i = 0; i <= rows; i++)
-{
-    for (int j = 0; j <= cols; j++)
-    {
-        if (i == 0 || i==res || j == 0 || (j==cols && i<res))
-            Console.Write("*\t");
-        else
-            Console.Write("\t");
+//        //if(i==1 && j==cols-1 || i == 2 && j == cols - 1)
+//        //    Console.Write("*\t");
 
-        //if(i==1 && j==cols-1 || i == 2 && j == cols - 1)
-        //    Console.Write("*\t");
-
-        //while(j==res)
-        //{
-        //    Console.Write("*\t");
-        //    break;
-        //}
-
-
-    }
-    Console.WriteLine();
-}
-
-//Console.WriteLine("====================================================================================");
+//        //while(j==res)
+//        //{
+//        //    Console.Write("*\t");
+//        //    break;
+//        //}
+//    }
+//    Console.WriteLine();
+//}
